@@ -29,7 +29,6 @@ Server::~Server()
     LOG_CLOSE();
     delete m_conf;
 }
-
 int Server::start()
 {
     load_config();
